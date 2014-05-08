@@ -4,6 +4,6 @@
     "silex/silex": "~1.2"
   },
   "autoload": {
-    "classmap": []
+    "classmap": ["web/controller/"]
   }
 }
