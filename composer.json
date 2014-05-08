@@ -1,9 +1,10 @@
 {
   "require": {
     "phpunit/phpunit": "4.0.20",
+    "twig/twig": ">=1.8,<2.0-dev",
     "silex/silex": "~1.2"
   },
   "autoload": {
-    "classmap": ["web/controller/"]
+    "classmap": ["web/controller/", "web/service"]
   }
 }
